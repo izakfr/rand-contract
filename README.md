@@ -32,3 +32,14 @@ This contract is deployed on the Juno mainnet at:
 ```
 juno1shxdqedq06dqxrw2kxque8n6fnkpufuy3gge2fmyaxs6v9p8nmtq6ueqf7
 ```
+
+## Example Transactions
+An example `SetBounty` transaction can be found at txhash:
+```
+0A05B0E65F1395C69FFADFB049E3C84341D703A1A3A04BA90BE3706CBD019261
+```
+
+An example `Add` transaction can be found at txhash:
+```
+494157C2BD9FF34158DBA5B8455110367A5CBDACD201EA2920BAE91AFA978CE0
+```
