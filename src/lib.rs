@@ -1,4 +1,4 @@
 pub mod contract;
 mod errors;
-mod msg;
-mod state;
+pub mod msg;
+pub mod state;
