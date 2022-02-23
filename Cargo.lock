@@ -514,6 +514,7 @@ dependencies = [
  "drand-verify",
  "schemars",
  "serde",
+ "thiserror",
 ]
 
 [[package]]
