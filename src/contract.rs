@@ -105,12 +105,12 @@ pub fn try_add(
     if bounty != 0 {
         response.messages = vec![SubMsg {
             id: 0,
-            gas_limit: None,
-            reply_on: ReplyOn::Always,
             msg: CosmosMsg::Bank(BankMsg::Send {
                 to_address: info.sender.into_string(),
                 amount: coins(bounty, bounty_denom),
             }),
+            gas_limit: None,
+            reply_on: ReplyOn::Never,
         }];
         clear_bounty(deps.storage, round);
     }
@@ -418,7 +418,7 @@ mod tests {
                     amount: coins(4500, BOUNTY_DENOM),
                 }),
                 gas_limit: None,
-                reply_on: ReplyOn::Always
+                reply_on: ReplyOn::Never
             }
         );
 
