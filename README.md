@@ -26,3 +26,9 @@ docker run --rm -v "$(pwd)":/code \
 ```
 artifacts/rand.wasm
 ```
+
+## Deployed Contract
+This contract is deployed on the Juno mainnet at:
+```
+juno1shxdqedq06dqxrw2kxque8n6fnkpufuy3gge2fmyaxs6v9p8nmtq6ueqf7
+```
