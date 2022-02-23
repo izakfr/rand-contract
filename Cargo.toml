@@ -1,0 +1,31 @@
+[package]
+name = "rand"
+version = "0.1.0"
+license = "AGPL-3.0"
+authors = ["Simon Warta <simon@confio.tech>", "Izak Fritz <izakfr@umich.edu>"]
+edition = "2018"
+
+exclude = [
+    "artifacts/"
+]
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[profile.release]
+opt-level = 3
+debug = false
+rpath = false
+lto = true
+debug-assertions = false
+codegen-units = 1
+panic = 'abort'
+incremental = false
+overflow-checks = true
+
+[dependencies]
+cosmwasm-std = "1.0.0-beta5"
+cosmwasm-storage = "1.0.0-beta5"
+drand-verify = "0.1.0"
+schemars = "0.8.8"
+serde = "1.0.136"
