@@ -32,5 +32,6 @@ serde = "1.0.136"
 thiserror = "1.0.30"
 
 [dev-dependencies]
-hex = "0.4.3"
+cosmwasm-vm = "1.0.0-beta5"
 cosmwasm-schema = "1.0.0-beta5"
+hex = "0.4.3"
