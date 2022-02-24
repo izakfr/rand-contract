@@ -1,10 +1,8 @@
 # Rand - An updated version of the drand client as a CosmWasm smart contract  
 
-####NOTE: This contract was originally created by Simon Warta <simon@confio.tech>
+This contract was originally created by Simon Warta <simon@confio.tech> and was updated as part of a Juno CosmWasm bounty. I have updated it to the most recent version of CosmWasm so that it could be deployed to the Juno mainnet. Details of how to build and run the contract can be found below. Additionally, there are links to the deployed contract, and sample transactions interacting with the contract. 
 
-I have updated it to the most recent version of CosmWasm so that it could be deployed to the Juno mainnet. Details of how to build and run the contract can be found below. Additionally, there are links to the deployed contract, and sample transactions interacting with the contract. 
-
-Details on the contract can be found at: https://medium.com/@simonwarta/when-your-blockchain-needs-to-roll-the-dice-ed9da121f590
+Details on the original contract and its design can be found at: https://medium.com/@simonwarta/when-your-blockchain-needs-to-roll-the-dice-ed9da121f590
 
 ## Deployed Contract
 This contract is deployed on the Juno mainnet at:
